@@ -5,6 +5,8 @@
 }
 
 form{
-  width: 75%;
+  width: 60%;
   margin: auto;
+  background-color: thistle;
+  border-radius: 15px;
 }
