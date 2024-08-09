@@ -4,7 +4,7 @@
     box-sizing: border-box
 }
 
-form{
+.form{
   width: 60%;
   margin: auto;
   background-color: thistle;
