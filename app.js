@@ -10,7 +10,7 @@ let remember = document.getElementById('remember');
 
 
 btnSubmit.addEventListener('click', () => {
-  if(email.value != '' || password.value != '') {
+  if(email.value != '' && password.value != '') {
     createUserWithEmailAndPassword(auth, email.value, password.value)
   .then((userCredential) => {
     // Signed up 
