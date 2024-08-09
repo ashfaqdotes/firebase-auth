@@ -17,7 +17,7 @@ btnSubmit.addEventListener('click', () => {
     const user = userCredential.user;
     // ...
     
-    alert('user created')
+    alert('Sign-Up Successfully !')
     email.value = ''
     password.value = ''
     remember.checked = false
