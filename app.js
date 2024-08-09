@@ -6,6 +6,7 @@ import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebase
 let email = document.getElementById('email');
 let password = document.getElementById('pass');
 let btnSubmit = document.getElementById('btn');
+let remember = document.getElementById('remember');
 
 
 btnSubmit.addEventListener('click', () => {
@@ -19,6 +20,7 @@ btnSubmit.addEventListener('click', () => {
     alert('user created')
     email.value = ''
     password.value = ''
+    remember.checked = false
   })
   .catch((error) => {
     const errorCode = error.code;
